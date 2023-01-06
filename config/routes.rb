@@ -1,0 +1,38 @@
+Rails.application.routes.draw do
+  get 'conversations/index'
+  get 'conversations/show'
+  get 'in_app_purchases/index'
+  get 'in_app_purchases/show'
+  get 'in_app_purchases/new'
+  get 'in_app_purchases/create'
+  get 'messages/index'
+  get 'messages/show'
+  get 'messages/new'
+  get 'messages/create'
+  get 'authentication/login'
+  get 'authentication/logout'
+  get 'matches/index'
+  get 'matches/show'
+  get 'swipes/index'
+  get 'swipes/create'
+  get 'swipes/update'
+  get 'swipes/destroy'
+  get 'profiles/index'
+  get 'profiles/show'
+  get 'profiles/new'
+  get 'profiles/edit'
+  get 'profiles/create'
+  get 'profiles/update'
+  get 'profiles/destroy'
+  get 'users/index'
+  get 'users/show'
+  get 'users/new'
+  get 'users/edit'
+  get 'users/create'
+  get 'users/update'
+  get 'users/destroy'
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  # root "articles#index"
+end
